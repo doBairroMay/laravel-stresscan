@@ -25,4 +25,4 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/users', 'UsuarioController@index');
 
-Route::get('/funcionario', 'FuncionarioController@index');
+Route::get('/funcionarios', 'FuncionarioController@index');
