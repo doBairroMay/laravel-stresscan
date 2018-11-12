@@ -15,14 +15,9 @@ Route::get('/', function () {
     return view('Welcome');
 });
 
-Route::auth();
 
-Route::get('/home', 'HomeController@index');
 
 Route::auth();
 
-Route::get('/home', 'HomeController@index');
-
-Route::get('/users', 'UsuarioController@index');
 
 Route::get('/funcionarios', 'FuncionarioController@index');
