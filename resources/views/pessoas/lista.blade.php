@@ -19,13 +19,13 @@
                     </tr></thead>
                     <tbody>
                       <tr>
-                        <td><a href="cadusuarios.html">Funcionários</a></td>
+                        <td><a href="{{ url('/funcionarios') }}">Funcionários</a></td>
                       </tr>
                       <tr>
-                        <td><a href="cadclientes.html" <="" a="">Clientes</a></td>
+                      <td><a href="{{ url('/clientes') }}">Clientes</a></td>
                       </tr>
                       <tr>
-                        <td><a href="cadfornecedores.html"></a>Fornecedores</td>
+                      <td><a href="{{ url('/terceiros') }}">Terceiros</a></td>
                       </tr>
                     </tbody>
                   </table>
@@ -38,7 +38,7 @@
         </div>
       
           </div>
-          <button data-brackets-id="16244" type="submit" class="btn btn-primary pull-right">Update Profile</button>
+          
           <div data-brackets-id="16245" class="clearfix"></div>
         
       </div>
