@@ -20,4 +20,4 @@ Route::get('/', function () {
 Route::auth();
 
 
-Route::get('/funcionarios', 'FuncionarioController@index');
+Route::get('/pessoas', 'PessoasController@index');

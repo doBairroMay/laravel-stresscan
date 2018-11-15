@@ -22,7 +22,6 @@
         body {
             font-family: 'Roboto';
         }
-
         .fa-btn {
             margin-right: 6px;
         }
