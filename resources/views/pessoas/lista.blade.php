@@ -1,5 +1,9 @@
 @extends('layouts.pessoas')
 @section('content')
+<div data-brackets-id="16180" class="content">  
+
+<div data-brackets-id="16237" class="row">
+  <div data-brackets-id="16238" class="col-md-12">
 <div class="container-fluid">
           <div class="row">            
             <div class=" col-md-12">
@@ -29,5 +33,13 @@
               </div>
             </div>
           </div>
+        </div>                         
+          
         </div>
+      
+          </div>
+          <button data-brackets-id="16244" type="submit" class="btn btn-primary pull-right">Update Profile</button>
+          <div data-brackets-id="16245" class="clearfix"></div>
+        
+      </div>
 @endsection

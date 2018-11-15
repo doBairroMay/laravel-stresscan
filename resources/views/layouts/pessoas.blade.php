@@ -257,40 +257,31 @@
               </div></span>
      </form>
 
-                    <div data-brackets-id="16237" class="row">
-                      <div data-brackets-id="16238" class="col-md-12">
-                        <div data-brackets-id="16239" class="form-group">
-                          <label data-brackets-id="16240">About Me</label>
-                          <div data-brackets-id="16241" class="form-group bmd-form-group">
-                            <label data-brackets-id="16242" class="bmd-label-floating"> Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</label>
-                            <textarea data-brackets-id="16243" class="form-control" rows="5"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <button data-brackets-id="16244" type="submit" class="btn btn-primary pull-right">Update Profile</button>
-                    <div data-brackets-id="16245" class="clearfix"></div>
-                  </form>
-                </div>
-              </div>
-            </div>
-            <div data-brackets-id="16246" class="col-md-4">
-              <div data-brackets-id="16247" class="card card-profile">
-                <div data-brackets-id="16248" class="card-avatar">
-                  <a data-brackets-id="16249" href="#pablo">
-                    <img data-brackets-id="16250" class="img" src="../assets/img/faces/marc.jpg">
-                  </a>
-                </div>
-                <div data-brackets-id="16251" class="card-body">
-                  <h6 data-brackets-id="16252" class="card-category text-gray">CEO / Co-Founder</h6>
-                  <h4 data-brackets-id="16253" class="card-title">Alec Thompson</h4>
-                  <p data-brackets-id="16254" class="card-description">
-                    Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
-                  </p>
-                  <a data-brackets-id="16255" href="#pablo" class="btn btn-primary btn-round">Follow</a>
-                </div>
-              </div>
-            </div>
+          @yield('content')
+          
+            <button data-brackets-id="16244" type="submit" class="btn btn-primary pull-right">Update Profile</button>
+            <div data-brackets-id="16245" class="clearfix"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div data-brackets-id="16246" class="col-md-4">
+      <div data-brackets-id="16247" class="card card-profile">
+        <div data-brackets-id="16248" class="card-avatar">
+          <a data-brackets-id="16249" href="#pablo">
+            <img data-brackets-id="16250" class="img" src="../assets/img/faces/marc.jpg">
+          </a>
+        </div>
+        <div data-brackets-id="16251" class="card-body">
+          <h6 data-brackets-id="16252" class="card-category text-gray">CEO / Co-Founder</h6>
+          <h4 data-brackets-id="16253" class="card-title">Alec Thompson</h4>
+          <p data-brackets-id="16254" class="card-description">
+            Don't be scared of the truth because we need to restart the human foundation in truth And I love you like Kanye loves Kanye I love Rick Owens’ bed design but the back is...
+          </p>
+          <a data-brackets-id="16255" href="#pablo" class="btn btn-primary btn-round">Follow</a>
+        </div>
+      </div>
+    </div>
           </div>
         </div>
       </div>
@@ -331,7 +322,7 @@
       </footer>
     <div data-brackets-id="16272" class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div data-brackets-id="16273" class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div data-brackets-id="16274" class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div data-brackets-id="16275" class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div><div data-brackets-id="16276" class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div data-brackets-id="16277" class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div data-brackets-id="16278" class="ps-scrollbar-y-rail" style="top: 0px; height: 310px; right: 0px;"><div data-brackets-id="16279" class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 97px;"></div></div><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 657px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 436px;"></div></div><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 657px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 459px;"></div></div></div>
   
-  @yield('content')
+
   
   <!-- Core JS Files -->
   <script data-brackets-id="16280" src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
