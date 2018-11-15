@@ -257,77 +257,7 @@
                 
               </div></span>
      </form>
-        <div data-brackets-id="16188" class="container-fluid">
-          <div data-brackets-id="16189" class="row"><div data-brackets-id="16190" class="col-md-8">
-              <div data-brackets-id="16191" class="card">
-                <div data-brackets-id="16192" class="card-header card-header-primary">
-                  <h4 data-brackets-id="16193" class="card-title">Edit Profile</h4>
-                  <p data-brackets-id="16194" class="card-category">Complete your profile</p>
-                </div>
-                <div data-brackets-id="16195" class="card-body">
-                  <form data-brackets-id="16196">
-                    <div data-brackets-id="16197" class="row">
-                      <div data-brackets-id="16198" class="col-md-5">
-                        <div data-brackets-id="16199" class="form-group bmd-form-group">
-                          <label data-brackets-id="16200" class="bmd-label-floating">Company (disabled)</label>
-                          <input data-brackets-id="16201" type="text" class="form-control" disabled="">
-                        </div>
-                      </div>
-                      <div data-brackets-id="16202" class="col-md-3">
-                        <div data-brackets-id="16203" class="form-group bmd-form-group">
-                          <label data-brackets-id="16204" class="bmd-label-floating">Username</label>
-                          <input data-brackets-id="16205" type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div data-brackets-id="16206" class="col-md-4">
-                        <div data-brackets-id="16207" class="form-group bmd-form-group">
-                          <label data-brackets-id="16208" class="bmd-label-floating">Email address</label>
-                          <input data-brackets-id="16209" type="email" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <div data-brackets-id="16210" class="row">
-                      <div data-brackets-id="16211" class="col-md-6">
-                        <div data-brackets-id="16212" class="form-group bmd-form-group">
-                          <label data-brackets-id="16213" class="bmd-label-floating">Fist Name</label>
-                          <input data-brackets-id="16214" type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div data-brackets-id="16215" class="col-md-6">
-                        <div data-brackets-id="16216" class="form-group bmd-form-group">
-                          <label data-brackets-id="16217" class="bmd-label-floating">Last Name</label>
-                          <input data-brackets-id="16218" type="text" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <div data-brackets-id="16219" class="row">
-                      <div data-brackets-id="16220" class="col-md-12">
-                        <div data-brackets-id="16221" class="form-group bmd-form-group">
-                          <label data-brackets-id="16222" class="bmd-label-floating">Adress</label>
-                          <input data-brackets-id="16223" type="text" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <div data-brackets-id="16224" class="row">
-                      <div data-brackets-id="16225" class="col-md-4">
-                        <div data-brackets-id="16226" class="form-group bmd-form-group">
-                          <label data-brackets-id="16227" class="bmd-label-floating">City</label>
-                          <input data-brackets-id="16228" type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div data-brackets-id="16229" class="col-md-4">
-                        <div data-brackets-id="16230" class="form-group bmd-form-group">
-                          <label data-brackets-id="16231" class="bmd-label-floating">Country</label>
-                          <input data-brackets-id="16232" type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div data-brackets-id="16233" class="col-md-4">
-                        <div data-brackets-id="16234" class="form-group bmd-form-group">
-                          <label data-brackets-id="16235" class="bmd-label-floating">Postal Code</label>
-                          <input data-brackets-id="16236" type="text" class="form-control">
-                        </div>
-                      </div>
-                    </div>
+
                     <div data-brackets-id="16237" class="row">
                       <div data-brackets-id="16238" class="col-md-12">
                         <div data-brackets-id="16239" class="form-group">
