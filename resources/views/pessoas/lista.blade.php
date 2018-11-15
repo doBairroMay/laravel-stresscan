@@ -1,4 +1,4 @@
-@extends('layouts.funcionarios')
+@extends('layouts.pessoas')
 @section('content')
 <div class="container-fluid">
           <div class="row">            
