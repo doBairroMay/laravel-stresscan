@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class Pessoas extends Controller
+class PessoasController extends Controller
 {
     public function __construct()
     {
