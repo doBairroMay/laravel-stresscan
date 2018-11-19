@@ -8,10 +8,10 @@
                   <p class="card-category"<a href="{{ url('/funcionarios') }}">Listagem de Funcionários</a></p>
                 </div>
                 {!! Form:open() !!}
-                
+                 {!! Form::input('text", 'nome','',['class' =>'form-control', 'autofocus','placeholder' => 'Nome] !!}
                 {!! Form:close() !!}
                 <div class="card-body">
-                  <form>
+                  <form>  
                     <div class="row">
                       <div class="col-md-5">
                         <div class="form-group bmd-form-group">
