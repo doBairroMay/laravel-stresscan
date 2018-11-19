@@ -10,7 +10,7 @@
                 </div>
 
                 {{  Form::open() }}
-                 {{Form::label('email', 'E-Mail Address');   }}            
+                 {{ echo Form::text('username');   }}            
                 {{ Form::close() }}
 
                 <div class="card-body">
