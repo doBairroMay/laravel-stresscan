@@ -1,10 +1,6 @@
 @extends('layouts.funcionarios')
 @section('content')
 
-{{ HTML::style('/assets/material-dashboardscss'); }}
-{{ HTML::style('/assets/material-dashboard.min.css.map'); }}
-{{ HTML::style('/assets/material-dashboards.css'); }}
-
 <div class="container-fluid">
           <div class="row"><div class="col-md-12">
               <div class="card">
