@@ -9,7 +9,7 @@
                 </div>
 
                 {!! Form:open() !!}
-                echo Form::text('username');
+                 {!! Form::input('text", 'nome','',['class' =>'form-control', 'autofocus','placeholder' => 'Nome] !!}
                 {!! Form:close() !!};
 
                 <div class="card-body">
