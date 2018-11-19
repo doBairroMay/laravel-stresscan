@@ -9,9 +9,9 @@
                 </div>
 
                 {!! Form:open() !!}
-                 {!! Form::input('text", 'nome','',['class' =>'form-control', 'autofocus','placeholder' => 'Nome] !!}
-                {!! Form:close() !!}
-                
+                echo Form::text('username');
+                {!! Form:close() !!};
+
                 <div class="card-body">
                   <form>  
                     <div class="row">
