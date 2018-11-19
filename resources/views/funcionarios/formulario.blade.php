@@ -8,9 +8,9 @@
                   <p class="card-category"<a href="{{ url('/funcionarios') }}">Listagem de Funcionários</a></p>
                 </div>
 
-                {!! Form:open() !!}
-                 {!! Form::input('text", 'nome','',['class' =>'form-control', 'autofocus','placeholder' => 'Nome] !!}
-                {!! Form:close() !!};
+                {{  Form::open() }}
+                echo Form::label('email', 'E-Mail Address');               
+                {{ Form::close() }}
 
                 <div class="card-body">
                   <form>  
