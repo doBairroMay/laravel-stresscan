@@ -19,7 +19,7 @@ class FuncionarioController extends Controller
     }
     public function novo()
     {
-        return view('funcionarios.lista');
+        return view('funcionarios.formulario');
     }
     
 }

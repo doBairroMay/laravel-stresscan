@@ -1,6 +1,6 @@
 @extends('layouts.funcionarios')
-@section('content')
 
+@section('content')
 <div class="container-fluid">
 
           <div class="row"><div class="col-md-12">
