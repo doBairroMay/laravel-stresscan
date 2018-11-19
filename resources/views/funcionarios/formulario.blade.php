@@ -7,9 +7,11 @@
                   <h4 class="card-title">Informações do Funcionário</h4>
                   <p class="card-category"<a href="{{ url('/funcionarios') }}">Listagem de Funcionários</a></p>
                 </div>
+
                 {!! Form:open() !!}
                  {!! Form::input('text", 'nome','',['class' =>'form-control', 'autofocus','placeholder' => 'Nome] !!}
                 {!! Form:close() !!}
+                
                 <div class="card-body">
                   <form>  
                     <div class="row">
