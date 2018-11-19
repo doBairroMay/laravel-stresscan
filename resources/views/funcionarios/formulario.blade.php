@@ -7,7 +7,7 @@
               <div class="card">
                 <div class="card-header card-header-primary">
                   <h4 class="card-title">Informações do Funcionário</h4>
-                  <p class="card-category"<a href="{{ url('/funcionarios') }}">Listagem de Funcionários</a></p>
+                  <a href="{{ url('/funcionarios') }}">Listagem de Funcionários</a>
                 </div>
 
                 {!!  Form::open() !!}
@@ -78,24 +78,14 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group">
-                          <label>About Me</label>
-                          <div class="form-group bmd-form-group">
-                            <label class="bmd-label-floating"> Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</label>
-                            <textarea class="form-control" rows="5"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    
                     <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
                     <div class="clearfix"></div>
                   </form>
                 </div>
               </div>
-            </div>
-            
           </div>
-        </div>
+            
+         
+</div>
 @endsection
