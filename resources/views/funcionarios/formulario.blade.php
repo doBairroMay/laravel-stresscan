@@ -1,5 +1,10 @@
 @extends('layouts.funcionarios')
 @section('content')
+
+{{ HTML::style('/assets/material-dashboardscss'); }}
+{{ HTML::style('/assets/material-dashboard.min.css.map'); }}
+{{ HTML::style('/assets/material-dashboards.css'); }}
+
 <div class="container-fluid">
           <div class="row"><div class="col-md-12">
               <div class="card">
@@ -9,7 +14,7 @@
                 </div>
 
                 {{  Form::open() }}
-                echo Form::label('email', 'E-Mail Address');               
+                 Form::label('email', 'E-Mail Address');               
                 {{ Form::close() }}
 
                 <div class="card-body">
