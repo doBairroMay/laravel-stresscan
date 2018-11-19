@@ -1,91 +1,49 @@
 @extends('layouts.funcionarios')
 
 @section('content')
-<div class="container-fluid">
+<div data-brackets-id="16180" class="content">  
 
-          <div class="row"><div class="col-md-12">
-              <div class="card">
-                <div class="card-header card-header-primary">
-                  <h4 class="card-title">Informações do Funcionário</h4>
-                  <a href="{{ url('/funcionarios') }}">Listagem de Funcionários</a>
-                </div>
-
+<div data-brackets-id="16237" class="row">
+  <div data-brackets-id="16238" class="col-md-12">
                 {!!  Form::open() !!}
                 {!! Form::text('username') !!}             
                 {!! Form::close() !!}
-
-                <div class="card-body">
-                  <form>  
-                    <div class="row">
-                      <div class="col-md-5">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Company (disabled)</label>
-                          <input type="text" class="form-control" disabled="">
-                        </div>
-                      </div>
-                      <div class="col-md-3">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Nome de Usuário</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Email</label>
-                          <input type="email" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Nome Completo</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">CPF</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Adress</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-4">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">City</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Country</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="form-group bmd-form-group">
-                          <label class="bmd-label-floating">Cep</label>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary pull-right">Update Profile</button>
-                    <div class="clearfix"></div>
-                  </form>
+<div class="container-fluid">
+          <div class="row">            
+            <div class=" col-md-12">
+              <div class="card">
+                <div class="card-header card-header-warning">
+                  <h4 class="card-title">Gerência e Controle</h4>
+                  <p class="card-category">Lista de itens que podem ser alterados pelo sistema</p>
+                </div>
+                <div class="card-body table-responsive">
+                  <table class="table table-hover">
+                    <thead class="text-warning">
+                      <tr>
+                    </tr></thead>
+                    <tbody>
+                      <tr>
+                        <td><a href="{{ url('/funcionarios') }}">Funcionários</a></td>
+                      </tr>
+                      <tr>
+                      <td><a href="{{ url('/clientes') }}">Clientes</a></td>
+                      </tr>
+                      <tr>
+                      <td><a href="{{ url('/terceiros') }}">Terceiros</a></td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
+            </div>
           </div>
-            
-         
-</div>
+        </div>                         
+          
+        </div>
+      
+          </div>
+          
+          <div data-brackets-id="16245" class="clearfix"></div>
+        
+      </div>
 @endsection
