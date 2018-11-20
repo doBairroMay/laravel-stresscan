@@ -14,6 +14,7 @@
   <link data-brackets-id="16088" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">
+  {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
     <!-- Styles 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     -->
