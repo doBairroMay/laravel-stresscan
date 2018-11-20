@@ -1,5 +1,11 @@
 @extends('layouts.funcionarios')
 
+@section('css')
+<link data-brackets-id="16087" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+  <link data-brackets-id="16088" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+  <!-- CSS Files -->
+  <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">    
+@stop
 @section('content')
 <div class="content">
     <form class="navbar-form col-md-8">
