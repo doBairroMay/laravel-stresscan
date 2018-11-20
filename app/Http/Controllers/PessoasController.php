@@ -16,5 +16,10 @@ class PessoasController extends Controller
     {
         return view('pessoas.lista');
     }
+     
+    public function novo()
+    {
+        return view('pessoas.teste');
+    }
 
 }

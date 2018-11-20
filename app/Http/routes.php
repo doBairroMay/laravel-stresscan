@@ -22,4 +22,4 @@ Route::auth();
 
 Route::get('/funcionarios', 'FuncionarioController@index');
 Route::get('/funcionarios/novo', 'FuncionarioController@novo');
-Route::get('/pessoas', 'PessoasController@index');
+Route::get('/pessoas/novo', 'PessoasController@novo');
