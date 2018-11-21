@@ -189,6 +189,9 @@
                 </a>
             </li> -->
         </ul>
+        
+         @yield('content')
+
       <div data-brackets-id="16132" class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div data-brackets-id="16133" class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div data-brackets-id="16134" class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div data-brackets-id="16135" class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div><div data-brackets-id="16136" class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div data-brackets-id="16137" class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div data-brackets-id="16138" class="ps-scrollbar-y-rail" style="top: 0px; height: 235px; right: 0px;"><div data-brackets-id="16139" class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 120px;"></div></div><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
     <div data-brackets-id="16140" class="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) "></div><div data-brackets-id="16141" class="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) "></div><div class="sidebar-background" style="background-image: url(../assets/img/sidebar-1.jpg) "></div></div>
     <div data-brackets-id="16142" class="main-panel ps-container ps-theme-default ps-active-y" data-ps-id="4e739d54-9a7b-d9ef-8f99-6fde6adb1d4a">
@@ -331,7 +334,6 @@
       </footer>
     <div data-brackets-id="16272" class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div data-brackets-id="16273" class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div data-brackets-id="16274" class="ps-scrollbar-y-rail" style="top: 0px; right: 0px;"><div data-brackets-id="16275" class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div><div data-brackets-id="16276" class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div data-brackets-id="16277" class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div data-brackets-id="16278" class="ps-scrollbar-y-rail" style="top: 0px; height: 310px; right: 0px;"><div data-brackets-id="16279" class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 97px;"></div></div><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 657px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 436px;"></div></div><div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 657px; right: 0px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 459px;"></div></div></div>
   
-  @yield('content')
 
   <!-- Core JS Files -->
   <script data-brackets-id="16280" src="../assets/js/core/jquery.min.js" type="text/javascript"></script>
