@@ -14,7 +14,7 @@
   <link data-brackets-id="16088" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
   
-    {{-- <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet"> --}}   
+     <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">  
 
     <style>
         body {
