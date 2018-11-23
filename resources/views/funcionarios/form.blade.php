@@ -9,7 +9,7 @@
         <a class="pull-right" href="{{ url('clientes') }}"> Listagem de Clientes</a>
        </div>
         <div class="panel-body">
-          {!!Form::open(['url'=>'funcionarios/salvar')!!}
+          {!!Form::open(['url'=>'funcionarios/salvar'])!!}
 
           {!!Form::label('nome','Nome')!!} 
           {!!Form::input('text','nome','',['class'=> 'form-control','autofocus'])!!}
