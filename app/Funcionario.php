@@ -10,7 +10,7 @@ class Funcionario extends Model
         'nome',
         'endereco',
         'email',
-        'descricao'
+        'cpf'
 
     ];
 }

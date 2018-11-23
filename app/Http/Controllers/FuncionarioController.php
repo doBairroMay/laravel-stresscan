@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Funcionario;
 use App\Http\Requests;
 
+use App\Http\Controllers\Controller;
+
 class FuncionarioController extends Controller
 {
 
@@ -23,6 +25,6 @@ class FuncionarioController extends Controller
     {
         $funcionario = new Funcionario(); 
         $funcionario = $funcionario->create($request->all());
-        var_dump($funcionario);
+        return $funcionario;
     }
 }

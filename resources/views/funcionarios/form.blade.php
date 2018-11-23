@@ -20,8 +20,8 @@
           {!!Form::label('email','Email')!!} 
           {!!Form::input('email','email','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Email'])!!}
 
-          {!!Form::label('descricao','Descrição')!!} 
-          {!!Form::input('text','descricao','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Descrição'])!!}
+          {!!Form::label('cpf','CPF')!!} 
+          {!!Form::input('text','descricao','',['class'=> 'form-control','autofocus', 'placeholder'=> 'CPF'])!!}
           <br>
           {!!Form::submit('Salvar',['class'=> 'btn btn-primary'])!!} 
 
