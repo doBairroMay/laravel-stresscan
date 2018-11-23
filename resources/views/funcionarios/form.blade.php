@@ -14,6 +14,21 @@
           {!!Form::label('nome','Nome')!!} 
           {!!Form::input('text','nome','',['class'=> 'form-control','autofocus'])!!}
 
+          {!!Form::label('nomeusuario','Nome de Usuário')!!} 
+          {!!Form::input('text','nomeusuario','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
+
+          {!!Form::label('endereco','Endereço')!!} 
+          {!!Form::input('text','endereco','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
+
+          {!!Form::label('cidade','Cidade')!!} 
+          {!!Form::input('text','cidade','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Cidade'])!!}
+
+          {!!Form::label('pais','Pais')!!} 
+          {!!Form::input('text','pais','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Pais'])!!}
+
+          {!!Form::label('cep','CEP')!!} 
+          {!!Form::input('text','pais','',['class'=> 'form-control','autofocus', 'placeholder'=> 'CEP'])!!}
+
           {!!Form::label('endereco','Endereço')!!} 
           {!!Form::input('text','endereco','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
 
