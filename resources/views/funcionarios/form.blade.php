@@ -10,7 +10,7 @@
        </div>
         <div class="panel-body">
           {!!Form::open()!!}
-          {!! Form::input('text','nome', '')}
+          {!! Form::input('text','nome', '')!!}
           {!!Form::close()!!}
         </div>
 
