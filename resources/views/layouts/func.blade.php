@@ -9,8 +9,8 @@
   <link data-brackets-id="16087" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
   <link data-brackets-id="16088" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
-  
-     <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">  
+    {!! Html::style('css/material-dashboard.css') !!}
+    <!-- <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">  -->
 
     <style>
         body {
