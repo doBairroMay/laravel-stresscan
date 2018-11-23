@@ -23,7 +23,7 @@
           {!!Form::label('descricao','Descrição')!!} 
           {!!Form::input('text','descricao','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Descrição'])!!}
           <br>
-          {!!Form::submit('Salvar',['class'=> 'btn btn-primary')!!} 
+          {!!Form::submit('Salvar',['class'=> 'btn btn-primary'])!!} 
 
           {!!Form::close()!!}
         </div>
