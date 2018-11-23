@@ -25,6 +25,6 @@ class FuncionarioController extends Controller
     {
         $funcionario = new Funcionario(); 
         $funcionario = $funcionario->create($request->all());
-        return $funcionario;
+        return Redirect::to('funcionarios/novo');
     }
 }
