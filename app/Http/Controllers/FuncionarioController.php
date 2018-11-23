@@ -23,6 +23,6 @@ class FuncionarioController extends Controller
     {
         $funcionario = new Funcionario(); 
         $funcionario = $funcionario->create($request->all());
-        return $funcionario;
+        var_dump($funcionario);
     }
 }
