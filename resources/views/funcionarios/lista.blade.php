@@ -1,4 +1,4 @@
-@extends('layouts.funcionarios')
+@extends('layouts.func')
 
 @section('content')
 <div class="content">
