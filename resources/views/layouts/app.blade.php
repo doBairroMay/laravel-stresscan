@@ -13,7 +13,7 @@
 
     <!-- Styles -->
     <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">     
-    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+    {{-- <link href="{{ elixir('css/material-dashboard.css') }}" rel="stylesheet"> --}}
 
     <style>
         body {
