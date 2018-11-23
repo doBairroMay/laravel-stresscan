@@ -3,15 +3,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
    
   <!--     Fonts and icons     -->
   <link data-brackets-id="16087" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
   <link data-brackets-id="16088" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
   
-     <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">  
-     {{-- <link href="{{ elixir('css/material-dashboard.css') }}" rel="stylesheet"> --}}
+    <link data-brackets-id="16089" href="css/material-dashboard.css?v=2.1.0" rel="stylesheet">  
+  
     <style>
         body {
             font-family: 'Roboto';
