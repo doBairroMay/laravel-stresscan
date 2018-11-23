@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.func')
 
 @section('content')
 <div class="content">
