@@ -9,13 +9,22 @@
         <a class="pull-right" href="{{ url('clientes') }}"> Listagem de Clientes</a>
        </div>
         <div class="panel-body">
-          {!!Form::open()!!}
+          {!!Form::open(['url'=>'funcionarios/salvar'])!!}
 
-          {!!Form::label('nome','Nome')!!}  
-
+          {!!Form::label('nome','Nome')!!} 
           {!!Form::input('text','nome','',['class'=> 'form-control','autofocus'])!!}
 
-          {!!Form::input('text','nome','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
+          {!!Form::label('endereco','Endereço')!!} 
+          {!!Form::input('text','endereco','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
+
+          {!!Form::label('email','Email')!!} 
+          {!!Form::input('email','email','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Email'])!!}
+
+          {!!Form::label('descricao','Descrição')!!} 
+          {!!Form::input('text','descricao','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Descrição'])!!}
+          <br>
+          {!!Form::submit('Salvar',['class'=> 'btn btn-primary')!!} 
+
           {!!Form::close()!!}
         </div>
 

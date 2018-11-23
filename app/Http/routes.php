@@ -9,4 +9,5 @@ Route::get('/', function () {
 Route::auth();
 Route::get('/funcionarios', 'FuncionarioController@index');
 Route::get('/funcionarios/novo', 'FuncionarioController@novo');
+Route::get('/funcionarios/salvar', 'FuncionarioController@salvar');
 Route::get('/pessoas/novo', 'PessoasController@novo');
