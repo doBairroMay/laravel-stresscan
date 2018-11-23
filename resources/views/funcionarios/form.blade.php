@@ -1,7 +1,6 @@
 @extends('layouts.func')
 
 @section('content')
-{!! Html::style('css/material-dashboard.css') !!}
 <div class="content">
     <form class="navbar-form col-md-8">
               <span class="bmd-form-group"><div class="input-group no-border">
@@ -152,4 +151,4 @@
 </div>
         </div>
       </div>
-@endsection
+@stop
