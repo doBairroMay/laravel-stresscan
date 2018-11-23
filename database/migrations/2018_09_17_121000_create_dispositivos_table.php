@@ -15,7 +15,7 @@ class CreateDispositivosTable extends Migration
         Schema::create('dispositivos', function (Blueprint $table) {
             $table->increments('id');
             $table->string('descricao');
-            $table->timestamps();
+           
         });
     }
 

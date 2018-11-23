@@ -17,7 +17,7 @@ class CreateClientesTable extends Migration
             $table->string('nome');
             $table->string('endereco');
             $table->integer('cultivo')->references('cultivos')->on('id');
-            $table->timestamps();
+            
         });
     }
 

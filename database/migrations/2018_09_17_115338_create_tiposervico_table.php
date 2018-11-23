@@ -15,7 +15,7 @@ class CreateTiposervicoTable extends Migration
         Schema::create('tiposervico', function (Blueprint $table) {
             $table->increments('id');
             $table->string('descricao');
-            $table->timestamps();
+            
         });
     }
 

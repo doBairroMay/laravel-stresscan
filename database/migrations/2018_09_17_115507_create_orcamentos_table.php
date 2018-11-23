@@ -20,7 +20,6 @@ class CreateOrcamentosTable extends Migration
             $table->string('cliente')->references('clientes')->on('nome');
             $table->integer('tiposervico')->references('servicos')->on('id');
 
-            $table->timestamps();
         });
     }
 

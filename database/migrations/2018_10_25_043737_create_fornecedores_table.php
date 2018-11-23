@@ -18,7 +18,7 @@ class CreateFornecedoresTable extends Migration
             $table->string('endereco');
             $table->string('email');
             $table->string('descricao');
-            $table->timestamps();
+           
         });
     }
 

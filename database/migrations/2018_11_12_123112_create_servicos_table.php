@@ -16,7 +16,7 @@ class CreateServicosTable extends Migration
             $table->increments('id');
             $table->string('descricao');
             $table->string('tipo-servico')->references('tiposervico')->on('id');
-            $table->timestamps();
+            
         });
     }
 

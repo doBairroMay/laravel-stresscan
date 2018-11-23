@@ -3,25 +3,17 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFuncionariosTable extends Migration
+class Funcionarios extends Migration
 {
-    /*
+    /**
      * Run the migrations.
      *
-     * $table->increments('id');
-            $table->string('nome');
-            $table->string('nomeusuario');
-            $table->string('cidade');
-            $table->string('pais');
-            $table->string('cep');
-            $table->string('email');
-            $table->string('endereco');
-            $table->string('cpf');
      * @return void
      */
     public function up()
     {
         Schema::create('funcionarios', function (Blueprint $table) {
+            $table->increments('id');
             $table->string('nome');
             $table->string('nomeusuario');
             $table->string('cidade');
@@ -30,7 +22,6 @@ class CreateFuncionariosTable extends Migration
             $table->string('email');
             $table->string('endereco');
             $table->string('cpf');
-            
         });
     }
 

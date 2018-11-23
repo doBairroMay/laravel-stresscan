@@ -18,7 +18,7 @@ class CreateTarefasTable extends Migration
             $table->integer('terceiro')->references('terceiros')->on('id');
             $table->date('inicio');
             $table->date('fim');
-            $table->timestamps();
+            
         });
     }
 

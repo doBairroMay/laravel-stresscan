@@ -13,10 +13,10 @@ class CreateCaixaTable extends Migration
     public function up()
     {
         Schema::create('caixa', function (Blueprint $table) {
-            $table->int('log');
-            $table->int('senha');
-            $table->doubleval('valor');
-            $table->timestamps();
+            $table->integer('log');
+            $table->integer('senha');
+            $table->float('valor');
+            
         });
     }
 

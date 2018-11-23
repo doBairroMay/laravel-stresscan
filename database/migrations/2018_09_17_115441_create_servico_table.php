@@ -16,7 +16,7 @@ class CreateServicoTable extends Migration
             $table->increments('id');
             $table->string('descricao');
             $table->integer('dispositivo')->references('dispositivos')->on('id');
-            $table->timestamps();
+            
         });
     }
 

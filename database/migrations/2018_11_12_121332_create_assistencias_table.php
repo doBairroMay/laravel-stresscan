@@ -19,7 +19,7 @@ class CreateAssistenciasTable extends Migration
             $table->integer('servico-cliente')->references('servico-cliente')->on('id');
             $table->date('data');
             $table->integer('funcionario')->references('funcionario')->on('id');
-            $table->timestamps();
+            
         });
     }
 

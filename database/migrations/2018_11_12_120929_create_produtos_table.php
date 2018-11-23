@@ -17,7 +17,7 @@ class CreateProdutosTable extends Migration
             $table->integer('tipo')->references('tipo-produto')->on('id');
             $table->string('descricao');
             $table->date('aquisicao');
-            $table->timestamps();
+           
         });
     }
 

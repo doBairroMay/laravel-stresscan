@@ -20,7 +20,7 @@ class CreateVendasTable extends Migration
             $table->date('data');
             $table->float('valor');
             $table->integer('idPagamento')->references('pagamento')->on('id');
-            $table->timestamps();
+           
         });
     }
 

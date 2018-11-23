@@ -16,7 +16,7 @@ class CreateServicoClienteTable extends Migration
             $table->increments('id');
             $table->integer('dispositivo')->references('dispositivo')->on('id');
             $table->integer('cliente')->references('cliente')->on('id');
-            $table->timestamps();
+            
         });
     }
 

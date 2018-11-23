@@ -20,7 +20,7 @@ class CreateTerceirosTable extends Migration
             $table->string('descricao');
             $table->date('inicio-prestacao');
             $table->date('fim-prestacao');
-            $table->timestamps();
+            
         });
     }
 
