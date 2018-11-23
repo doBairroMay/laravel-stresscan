@@ -11,6 +11,7 @@
         <div class="panel-body">
         @if(Session::has('mensagem_sucesso'))
           <div class="alert alert-sucesso">
+        @endif
           {{Session::get('mensagem_sucesso')}}
           </div>
           {!!Form::open(['url'=>'funcionarios/salvar'])!!}
