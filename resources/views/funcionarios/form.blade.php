@@ -9,6 +9,10 @@
         <a class="pull-right" href="{{ url('clientes') }}"> Listagem de Clientes</a>
        </div>
         <div class="panel-body">
+        @if(Session::has('mensagem_sucesso'))
+          <div class="alert alert-sucesso">
+          {{Session::get('mensagem_sucesso')}}
+          </div>
           {!!Form::open(['url'=>'funcionarios/salvar'])!!}
 
           {!!Form::label('nome','Nome')!!} 

@@ -25,6 +25,8 @@ class FuncionarioController extends Controller
     {
         $funcionario = new Funcionario(); 
         $funcionario = $funcionario->create($request->all());
+
+        \Session::flash('mensagem_sucesso','cliente cadastrado com sucesso');
         return Redirect::to('funcionarios/novo');
     }
 }
