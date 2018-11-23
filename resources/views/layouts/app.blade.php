@@ -17,7 +17,7 @@
 
     <style>
         body {
-            font-family: 'Roboto';
+            font-family: 'Lato';
         }
 
         .fa-btn {
