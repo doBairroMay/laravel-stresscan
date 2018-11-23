@@ -1,4 +1,4 @@
-@extends('func.blade.php')
+@extends('layouts.func')
 
 @section('content')
 <div class="content">
