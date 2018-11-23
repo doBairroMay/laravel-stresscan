@@ -10,7 +10,7 @@
        </div>
         <div class="panel-body">
           {!!Form::open()!!}
-          {!! Form::label('nome','Nome')}
+          {!! Form::label('nome','Nome')!!}
           {!! Form::input('text','nome', '',['class'=> 'form-control','autofocus'])!!}
 
           {!! Form::input('text','nome', '',['class'=> 'form-control','', 'placeholder'=> 'Endereço'])!!}
