@@ -12,6 +12,7 @@ Route::group(['middleware' => 'web'], function () {
     Route::get('/funcionarios/novo', 'FuncionarioController@novo');
     Route::get('/funcionarios/{f}/editar', 'FuncionarioController@editar');
     Route::post('/funcionarios/salvar', 'FuncionarioController@salvar');
+    Route::patch('/funcionarios/{f}', 'FuncionarioController@atualizar');
     Route::get('/pessoas/novo', 'PessoasController@novo');
         
 });

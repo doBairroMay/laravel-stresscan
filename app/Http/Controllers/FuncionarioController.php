@@ -38,4 +38,10 @@ class FuncionarioController extends Controller
         return view('funcionarios.form', ['f'=>$f]);
     }
     
+    public function atualizar($id, Request $request)
+    {
+        $f = Funcionario::findOrFail($id);
+        $f->update($request->all());
+    }
+    
 }
