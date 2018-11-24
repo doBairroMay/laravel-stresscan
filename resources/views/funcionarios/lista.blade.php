@@ -29,7 +29,7 @@
                             <td>{{ $f->cpf }}</td>
                             <td>{{ $f->email }}</td>
                             <td>
-                                <button class="btn btn-sm">Editar</button>
+                                <a href="funcionarios/{{$f->id}}/editar" class="btn btn-default btn-sm"> Editar</a>
                                 <button class="btn btn-sm">Excluir</button>
                             </td>
                         </tr>

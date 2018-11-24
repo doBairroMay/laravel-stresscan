@@ -10,38 +10,45 @@
        </div>
         <div class="panel-body">
         @if(Session::has('mensagem_sucesso'))
-          <div class="alert alert-sucesso">
+          <div class="alert alert-success">
         @endif
           {{Session::get('mensagem_sucesso')}}
           </div>
-          {!!Form::open(['url'=>'funcionarios/salvar'])!!}
+        
+          @if(Request::has('*/editar'))
+            {!!Form::model($f,[ 'method'=> 'PATCH','url'=>'funcionarios/atualizar'])!!}
+          @else
+            {!!Form::open(['url'=>'funcionarios/salvar'])!!}
+          @endif
+
+         
 
           {!!Form::label('nome','Nome')!!} 
-          {!!Form::input('text','nome','',['class'=> 'form-control','autofocus'])!!}
+          {!!Form::input('text','nome',null,['class'=> 'form-control','autofocus'])!!}
 
           {!!Form::label('nomeusuario','Nome de Usuário')!!} 
-          {!!Form::input('text','nomeusuario','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
+          {!!Form::input('text','nomeusuario',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
 
           {!!Form::label('endereco','Endereço')!!} 
-          {!!Form::input('text','endereco','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
+          {!!Form::input('text','endereco',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
 
           {!!Form::label('cidade','Cidade')!!} 
-          {!!Form::input('text','cidade','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Cidade'])!!}
+          {!!Form::input('text','cidade',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'Cidade'])!!}
 
           {!!Form::label('pais','Pais')!!} 
-          {!!Form::input('text','pais','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Pais'])!!}
+          {!!Form::input('text','pais',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'Pais'])!!}
 
           {!!Form::label('cep','CEP')!!} 
-          {!!Form::input('text','pais','',['class'=> 'form-control','autofocus', 'placeholder'=> 'CEP'])!!}
+          {!!Form::input('text','pais',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'CEP'])!!}
 
           {!!Form::label('endereco','Endereço')!!} 
-          {!!Form::input('text','endereco','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
+          {!!Form::input('text','endereco',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'Endereço'])!!}
 
           {!!Form::label('email','Email')!!} 
-          {!!Form::input('email','email','',['class'=> 'form-control','autofocus', 'placeholder'=> 'Email'])!!}
+          {!!Form::input('email','email',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'Email'])!!}
 
           {!!Form::label('cpf','CPF')!!} 
-          {!!Form::input('text','descricao','',['class'=> 'form-control','autofocus', 'placeholder'=> 'CPF'])!!}
+          {!!Form::input('text','descricao',null,['class'=> 'form-control','autofocus', 'placeholder'=> 'CPF'])!!}
           <br>
           {!!Form::submit('Salvar',['class'=> 'btn btn-primary'])!!} 
 

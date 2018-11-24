@@ -31,4 +31,11 @@ class FuncionarioController extends Controller
         \Session::flash('mensagem_sucesso','cliente cadastrado com sucesso');
         return Redirect::to('funcionarios/novo');
     }
+
+    public function editar($id)
+    {
+        $f = Funcionario::findorFail($id);
+        return view('funcionarios.form', ['f'=>$f]);
+    }
+    
 }
