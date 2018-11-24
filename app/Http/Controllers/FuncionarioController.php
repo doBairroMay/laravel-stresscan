@@ -28,7 +28,7 @@ class FuncionarioController extends Controller
         $funcionario = new Funcionario(); 
         $funcionario = $funcionario->create($request->all());
 
-        \Session::flash('mensagem_sucesso','cliente cadastrado com sucesso');
+        \Session::flash('mensagem_sucesso','Funcionário cadastrado com sucesso');
         return Redirect::to('funcionarios/novo');
     }
 
@@ -42,7 +42,17 @@ class FuncionarioController extends Controller
     {
         $f = Funcionario::findOrFail($id);
         $f->update($request->all()); 
+       /* \Session::flash('mensagem_sucesso','Funcionário cadastrado com sucesso');*/
         return view('funcionarios.form', ['f'=>$f]);
+        
     }
     
+    public function excluir($id)
+    {
+        $f = Funcionario::findOrFail($id);
+        $f->delete(); 
+       /* \Session::flash('mensagem_sucesso','Funcionário cadastrado com sucesso');*/
+        return view('funcionarios');
+        
+    }
 }

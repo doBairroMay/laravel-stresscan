@@ -30,7 +30,9 @@
                             <td>{{ $f->email }}</td>
                             <td>
                                 <a href="funcionarios/{{$f->id}}/editar" class="btn btn-default btn-sm"> Editar</a>
-                                <button class="btn btn-sm">Excluir</button>
+                                {!!Form::open($f, ['method'=>'DELETE','url'=>'funcionarios/'.$f->id, 'style'=>'display:inline;'])!!}
+                                <button type="submit" class="btn btn-sm">Excluir</button>
+                                {!!Form::close()!!}
                             </td>
                         </tr>
                     @endforeach
