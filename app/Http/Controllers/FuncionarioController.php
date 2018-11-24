@@ -13,7 +13,9 @@ class FuncionarioController extends Controller
 
     public function index()
     {
+        $funcionarios = Funcionario::get();
         return view('funcionarios.lista');
+
     }
 
     public function novo()
