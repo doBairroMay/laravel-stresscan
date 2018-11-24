@@ -15,7 +15,7 @@
           {{Session::get('mensagem_sucesso')}}
           </div>
         
-          @if(Request::has('*/editar'))
+          @if(Request::is('*/editar'))
             {!!Form::model($f, ['method'=>'PATCH','url'=>'funcionarios/atualizar'])!!}
           @else
             {!!Form::open(['url'=>'funcionarios/salvar'])!!}
