@@ -34,7 +34,7 @@ class FuncionarioController extends Controller
 
     public function editar($id)
     {
-        $f = Funcionario::find($id);
+        $f = Funcionario::findOrFail($id);
         return view('funcionarios.form', ['f'=>$f]);
     }
     

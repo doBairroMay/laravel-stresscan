@@ -19,9 +19,7 @@
             {!!Form::model($f,[ 'method'=> 'PATCH','url'=>'funcionarios/atualizar'])!!}
           @else
             {!!Form::open(['url'=>'funcionarios/salvar'])!!}
-          @endif
-
-         
+          @endif         
 
           {!!Form::label('nome','Nome')!!} 
           {!!Form::input('text','nome',null,['class'=> 'form-control','autofocus'])!!}
