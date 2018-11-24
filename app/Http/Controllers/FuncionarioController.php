@@ -42,7 +42,7 @@ class FuncionarioController extends Controller
     {
         $f = Funcionario::findOrFail($id);
         $f->update($request->all()); 
-        
+        return view('funcionarios.form', ['f'=>$f]);
     }
     
 }
