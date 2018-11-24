@@ -16,7 +16,7 @@
           </div>
         
           @if(Request::is('*/editar'))
-            {!!Form::model($f, ['method'=>'PATCH','url'=>'funcionarios/atualizar'.$f->id])!!}
+            {!!Form::model($f, ['method'=>'PATCH','url'=>'funcionarios/'.$f->id/editar])!!}
           @else
             {!!Form::open(['url'=>'funcionarios/salvar'])!!}
           @endif         
