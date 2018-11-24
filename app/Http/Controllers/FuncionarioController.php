@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Funcionario;
 use App\Http\Requests;
-
+use Illuminate\Support\Facades\Redirect;
 use App\Http\Controllers\Controller;
 
 class FuncionarioController extends Controller
