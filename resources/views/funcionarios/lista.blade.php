@@ -9,7 +9,7 @@
         <a class="pull-right" href="{{ url('funcionarios/novo') }}">Novo Funcionário</a>
        </div>
         <div class="panel-body">
-            {{ $funcionarios }}
+            {{ $funcionario }}
         </div>
 
      </div>
