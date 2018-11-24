@@ -13,7 +13,7 @@ class FuncionarioController extends Controller
 
     public function index()
     {
-        $funcionario = Funcionario::get();
+        $func = Funcionario::get();
         return view('funcionarios.lista');
 
     }
