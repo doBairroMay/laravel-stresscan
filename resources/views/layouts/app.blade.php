@@ -32,19 +32,21 @@
         .table>tbody+tbody {
             border-top: none !important;
         }
+        table{
+            text-align: center;
+        }
         th{
             color: rgb(156, 39, 176);
             font-weight: lighter;
             font-size: 1.5rem;
             border-top: none !important;
-            text-align: center;
         }
         .panel-heading {
             padding: 10px 15px;
             border-radius: 3px;
             background: linear-gradient(60deg, rgb(171, 71, 188), rgb(142, 36, 170));
             box-shadow: 0 1px 4px 0 rgba(0,0,0,.30);
-            color: white;
+            color: white !important;
             font-size: 3rem;
             font-weight: lighter;
         }
