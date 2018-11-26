@@ -36,8 +36,7 @@
             text-align: center;
         }
         th{
-            color: rgb(156, 39, 176);
-            font-weight: lighter;
+            color: #555;
             font-size: 1.5rem;
             border-top: none !important;
         }
