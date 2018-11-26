@@ -52,7 +52,7 @@ class FuncionarioController extends Controller
         $f = Funcionario::findOrFail($id);
         $f->delete(); 
        /* \Session::flash('mensagem_sucesso','Funcionário cadastrado com sucesso');*/
-        return view('funcionarios');
+        return view('funcionarios.lista');
         
     }
 }
