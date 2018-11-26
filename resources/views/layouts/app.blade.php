@@ -14,8 +14,63 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-
+    
+    <style>
+        body {
+            font-family: 'Roboto';
+        }
+        .painel-body{
+            box-shadow: 0 1px 4px 0 rgba(0,0,0,.30);
+            border: 0;
+            margin-bottom: 30px;
+            margin-top: 15px;
+            border-radius: 6px;
+            color: #333;
+            background: #fff;
+            width: 100%;
+        }
+        .table>tbody+tbody {
+            border-top: none !important;
+        }
+        th{
+            color: rgb(156, 39, 176);
+            font-weight: lighter;
+            font-size: 1.5rem;
+            border-top: none !important;
+            text-align: center;
+        }
+        .panel-heading {
+            padding: 10px 15px;
+            border-radius: 3px;
+            background: linear-gradient(60deg, rgb(171, 71, 188), rgb(142, 36, 170));
+            box-shadow: 0 1px 4px 0 rgba(0,0,0,.30);
+            color: white;
+            font-size: 3rem;
+            font-weight: lighter;
+        }
+        .panel-heading a{
+            color: rgb(171, 71, 188);
+            background-color: white;
+            border-radius: 5px;
+            padding: 10px;
+            font-size: 1.5rem;
+            font-weight: 600;
+            transition: 0.3s;
+            box-shadow: 0 1px 4px 0 rgba(0,0,0,.30);
+        }
+        .panel-heading a:hover{
+            color: rgb(171, 71, 188);
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 5px 0 rgba(0,0,0,.20);
+            text-decoration: none;
+        }
+        .btn{
+            width: 80%;
+            margin: 2px;
+            transition: 0.5s;
+        }
+    </style>
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-default navbar-static-top">
