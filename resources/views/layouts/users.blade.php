@@ -1,5 +1,6 @@
 
 @extends('layouts.app')
+
 @section('content')
 <div class="content">
     <form class="navbar-form col-md-8">

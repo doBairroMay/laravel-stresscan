@@ -23,7 +23,6 @@ class CreateManutencoesTable extends Migration
             $table->date('data');
             $table->float('valor');       
 
-            $table->timestamps();
         });
     }
 

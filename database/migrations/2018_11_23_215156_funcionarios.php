@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateFornecedoresTable extends Migration
+class Funcionarios extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +12,16 @@ class CreateFornecedoresTable extends Migration
      */
     public function up()
     {
-        Schema::create('fornecedores', function (Blueprint $table) {
+        Schema::create('funcionarios', function (Blueprint $table) {
             $table->increments('id');
             $table->string('nome');
-            $table->string('endereco');
+            $table->string('nomeusuario');
+            $table->string('cidade');
+            $table->string('pais');
+            $table->string('cep');
             $table->string('email');
-            $table->string('descricao');
-           
+            $table->string('endereco');
+            $table->string('cpf');
         });
     }
 
@@ -29,6 +32,6 @@ class CreateFornecedoresTable extends Migration
      */
     public function down()
     {
-        Schema::drop('fornecedores');
+        Schema::drop('funcionarios');
     }
 }

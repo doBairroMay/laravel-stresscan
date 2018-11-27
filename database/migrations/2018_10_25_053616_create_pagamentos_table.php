@@ -14,8 +14,7 @@ class CreatePagamentosTable extends Migration
     {
         Schema::create('pagamentos', function (Blueprint $table) {
             $table->increments('id');
-            
-            $table->timestamps();
+            $table->float('valor');
         });
     }
 

@@ -15,7 +15,7 @@ class CreateTipocultivoTable extends Migration
         Schema::create('tipocultivo', function (Blueprint $table) {
             $table->increments('id');
             $table->string('descricao');
-            $table->timestamps();
+           
         });
     }
 
